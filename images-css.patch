@@ -54,3 +54,4 @@ index 71c28d8..ca321ef 100644
  .main3 {
      display: flex;
      flex-direction: row;
+}
