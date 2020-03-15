@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic');
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    margin: 0px 300px 0px 300px;
+}
+
+.header-menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-menu > li {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+}
+
+.main1 {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin: 0px 300px 0px 300px;
+}
+
+.offer {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+}
+
+.offer-header {
+  font-size: 40px;
+  font-family: "Roboto";
+  color: rgb(59, 57, 68);
+  font-weight: bold;
+}
+
+.offer-title {
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(75, 105, 176);
+  padding-top: 10px;
+}
+
+.main-image {
+	width: 50%;
+}
+
+.main-image__1 {
+	width: 95%;
+	height: auto;
+}
+
+.main-image__2 {
+	width: 85%;
+	height: auto;
+}
+
+.main-image__3 {
+	width: 85%;
+	height: auto;
+}
+
+.sale {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2.177px 8.733px 43px 0px rgba(105, 132, 194, 0.32);
+  width: 180px;
+  height: 260px;
+  padding: 20px;
+  margin-left: auto;
+}
+
+.symptoms {
+    display: flex;
+    flex-direction: row-reverse;
+    /*background-image: url("image/symptoms-background.png");
+    background-size: cover;*/
+    padding: 15px 300px 0px 300px;
+}
+
+.symptoms-title {
+    font-size: 28px;
+    font-family: "Roboto";
+    color: rgb(46, 44, 53);
+    font-weight: bold;
+    text-align: center;
+}
+
+.color2 {
+    color: #f56856;
+}
+
+.symptoms-img {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+}
+
+.symptoms-list {
+    padding-top: 50px;
+}
+
+.symptoms-list__item {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.symptoms-item__img {
+    width: 46px;
+    height: 46px;
+    padding-right: 30px;
+}
+
+.symptoms-item__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.symptoms-text__title {
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(46, 44, 53);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.symptoms-text__description {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(126, 124, 137);
+}
+
+..conclusion-item__img {
+    width: 46px;
+    height: 46px;
+    padding-right: 30px;
+}
+
+.conclusion-text__description {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(59, 57, 68);
+}
+
+
+.composition {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 300px 60px 300px;
+}
+
+.about-composition {
+    padding-right: 20px;
+    width: 50%;
+}
+
+.about-composition__title {
+  font-size: 38px;
+  font-family: "Roboto";
+  color: rgb(59, 57, 68);
+  font-weight: bold;
+}
+
+.color {
+    color: #5774b8;
+}
+
+.about-composition__img {
+    width: 70%;
+    padding: 40px 20px 20px 20px;
+}
+
+.composition-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+
+.composition-list > article {
+    width: 43%;
+    height: auto;
+    padding: 0px 26px 26px 0px;
+}
+
+.composition-item__img {
+    width: 70%;
+    padding: 20px 0px 20px 0px;
+}
+
+.composition-item__description {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(142, 140, 149);
+}
+
+.composition-item__title {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(59, 57, 68);
+  font-weight: bold;
+}
+
+.about {
+    width: 50%;
+    padding-top: 0px;
+}
+
+.main3 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 300px 0px 300px;
+    background-image: url("image/order_background.png");
+    background-size: contain;
+    width: auto;
+    height: 190px;
+    margin: 80px 0px 80px 0px;
+}
+
+.subscription-header {
+    font-family: Roboto, Arial;
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+}
+
+.subscription-title {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: gray;
+    display: block;
+    margin: 10px 0px 20px 0px;
+}
+
+.subscription-form__submit {
+    background: #36bde3;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 0px 3px 3px 0px;
+    height: 45px;
+    font-size: 14px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
