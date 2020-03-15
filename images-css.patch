@@ -1,0 +1,56 @@
+diff --git a/style.css b/style.css
+index 71c28d8..ca321ef 100644
+--- a/style.css
++++ b/style.css
+@@ -11,7 +11,7 @@
+ 
+ .header-menu {
+     display: flex;
+-    margin-left: auto;
++    margin-left: auto;    
+ }
+ 
+ .header-menu > li {
+@@ -55,6 +55,7 @@ a {
+ 
+ .main-image {
+ 	width: 50%;
++	position: relative;
+ }
+ 
+ .main-image__1 {
+@@ -63,13 +64,19 @@ a {
+ }
+ 
+ .main-image__2 {
+-	width: 85%;
+-	height: auto;
++  position: absolute;
++  width: 70%;
++  height: auto;
++	top: 65%;
++	left: -31px;
+ }
+ 
+ .main-image__3 {
+-	width: 85%;
+-	height: auto;
++  position: absolute;
++  width: 75%;
++  height: auto;
++  top: 80%;
++  right: 0;
+ }
+ 
+ .sale {
+@@ -219,6 +226,10 @@ a {
+     padding-top: 0px;
+ }
+ 
++.main2 {
++  margin-top: 150px;
++}
++
+ .main3 {
+     display: flex;
+     flex-direction: row;
