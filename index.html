@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head> 
  	<body>
  	<header class="header">    
@@ -34,11 +35,11 @@
                     </article>
                     <article class="offer-list__item">
                         <img class="offer-item__img" src="image/offer-item.png" alt="item-img" />
-                        <span class="offer-text__title">Помогает снять боль</span>
+                        <span class="offer-text__title">Устраняет скованность суставов</span>
                     </article>
                     <article class="offer-list__item">
                         <img class="offer-item__img" src="image/offer-item.png" alt="item-img" />
-                        <span class="offer-text__title">Помогает снять боль</span>
+                        <span class="offer-text__title">Уменьшает отеки</span>
                     </article>
                 </article>
             </article>
@@ -52,18 +53,20 @@
                 <article class="price">
                     <article class="old-price">
                         <span class="old-price__header">Старая цена</span>
-                        <span class="old-price__number"><span class="price1">1980</span>руб</span>
+                        <p class="old-price__number"><span class="price1">1980</span>руб</p>
                     </article> 
                     <article class="new-price">
                         <span class="new-price__header">Ваша цена</span>
-                        <span class="new-price__number"><span class="price2">990</span>руб</span>
+                        <p class="new-price__number"><span class="price2">990</span>руб</p>
                     </article>
                 </article>
-                <article>
-                    <span class="new-price__header">Ваша цена</span>
-                    <div id="counter"></div>
-                    <form class="subscription-form">
-                <button class="subscription-form__submit"> Заказать <br> со скидкой</button>
+                <article class="time">
+                    <p class="time-price__header">Осталось до конца акции</p>
+                    <article class="demo">
+                    <p id="demo"></p>
+                </article>
+                    <form class="time-form">
+                <button class="time-form__submit"> Заказать <br> со скидкой</button>
             </form>
                 </article>
             </article>
